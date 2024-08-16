@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Critical AI @ MEPO 2024
-nav_exclude: true
+#nav_exclude: true
 permalink: index.html
 seo:
   type: Course
