@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Critical AI @ MEPO 2024
-#nav_exclude: true
+nav_exclude: true
 permalink: index.html
 seo:
   type: Course
@@ -27,7 +27,7 @@ Why the strike-outs in the previous sentence? Well, when we talk about _AI_ syst
 
 Instead of blindly using an AI system because it "looks cool" or gives a "cool response", we want you to think more critically about it. We know you can stay cognizant and _stay ready_ to be critical and inquisitive, because you're engineers! If you've ever heard the phrase "debbie downer"...
 
-<div align="center"><img src="imgs/debbie-downer.gif" width="350" style="border: 2px solid white"></div>
+<div align="center"><img src="{{ site.baseurl }}/assets/images/debbie-downer.gif" width="350" style="border: 2px solid white"></div>
 
 ...well honestly that might be what you have to be sometimes. But thats the responsibility that can come with expertise!
 
@@ -38,7 +38,7 @@ Unfortunately, many modern _AI_ systems are very opaque and the companies contro
 Values and context are important for thinking about _responsibility_ but folks like [Dr. Chris Dancy](https://sites.psu.edu/thicc/) and [Timnit Gebru](https://www.dair-institute.org/team/) (who's pictured below) have written quite a bit on perspectives of responsibility in using AI (and now _generative_ AI) systems. Give "[How to use generative AI more responsibly](https://www.nature.com/articles/s44159-024-00339-4.epdf?sharing_token=szDY0m4RQJYHkn3vH0CzKdRgN0jAjWel9jnR3ZoTv0Nkvzx9WwR5sRZDKMO5PrczGiPdY4IRpKwg2Kj776ZciQe0bPdzw2FSfuH7PC1CMgMSujOrsHH6w46kYojbTrjkWaVn5E0mXnpa95tc-hsbVVM-s1P_xhAU6rNUHLxJ_C0%3D) a quick read for one perspective on using generative systems responsibly (though this is slightly contextualized for psychologists and cognitive scientists, the majority of these lessons apply to engineers as well!)
 
 <div align="center">
-    <img src="imgs/gebru_DAIR.jpeg" height="300" style="border: 2px solid white" alt="Image of Timnit Gebru, founder of the Distributed AI Research Institute (DAIR)" />
+    <img src="{{ site.baseurl }}/assets/images/gebru_DAIR.jpeg" height="300" style="border: 2px solid white" alt="Image of Timnit Gebru, founder of the Distributed AI Research Institute (DAIR)" />
     <div style="font-size: 11px;">
         After she was fired from Google Research as the co-lead (she led along with <a href="https://www.m-mitchell.com/">Margaret Mitchell</a>) of the AI Ethics group for her critical voice on company climate and the impacts of large language models (she was one of the authors of <a href="https://dl.acm.org/doi/10.1145/3442188.3445922">this famous paper</a>), Timnit Gebru founded the Distributed AI Research Institute (DAIR).
     </div>
@@ -48,7 +48,7 @@ This is all to say that as engineers, you will have a choice in what AI systems 
 
 ### Large Language Models
 
-<div align="center"><img src="imgs/Llama2_architecture.webp" width="350" style="border: 2px solid white"></div>
+<div align="center"><img src="{{ site.baseurl }}/assets/images/Llama2_architecture.webp" width="350" style="border: 2px solid white"></div>
 
 We are going to explore the use of one particular kind of _generative AI system_ called a large language model (LLM). Large language models are machine learning models that typically use a series of neural networks (with a particular _transformer_ architecture). Here large represents the number of parameters, which these days will be in the **billions** for the more popular LLMs. LLMs essentially output sequences of text (and sometimes other types of media) based on some input text. We'd note that they do not _understand_, they complete (text) sequences with an output. They do not have human-like cognitive processing of information, but these systems certainly _can_ output information that matches the input very well. The details aren't _too_ important for us, but if you want to learn more, there are both resources out there and classes here at Penn State that will cover some of the basics. Dr. Dancy spends a few classes going over the transformer architecture in his [AI, Humans, and Society class](https://cld5070.github.io/cmpsc497-fa23/), for example!
 
@@ -59,8 +59,8 @@ These two points allow us to bring the model to you in the learning module in th
 The Llama 2 models come in three main variants: Llama 2 7B, Llama 2 13B, Llama 2 70B. Each number in those variants refers to the number of parameters. We will use the smallest of those models, Llama 2 7B. Why do we use the smallest version? (Take a second to think)
 
 <div align="center">
-<img src="imgs/thinking1.gif" width="350" style="border: 2px solid white"><br />
-<img src="imgs/thinking2.webp" width="350" style="border: 2px solid white">
+<img src="{{ site.baseurl }}/assets/images/thinking1.gif" width="350" style="border: 2px solid white"><br />
+<img src="{{ site.baseurl }}/assets/images/thinking2.webp" width="350" style="border: 2px solid white">
 </div>
 
 If you guessed because of how much space it takes up on a disk/hard drive, then you would be correct! But that's not the _only_ reason we would consider in computational system to use something _smaller_. If you also guessed because of how long it takes to run the model (i.e., speed), then you are also correct! 
@@ -69,7 +69,7 @@ When we say speed, we are specifically talking about how long it takes the model
 
 So in the normal chatbot example (and we'll be interfacing with a form of chatbot here soon) the input is what you right to the chatbot and the output is it's response. The other big aspect of speed related to these models (but which we don't have to worry about directly) is how long it takes to train the model.  If you go to the [model card](https://huggingface.co/docs/hub/model-cards#model-cards) for this [model on HuggingFace](https://huggingface.co/meta-llama/Llama-2-7b-chat-hf), you'll run across the table shown below:
 
-<div align="center"><img src="imgs/llama2_model-card.png" alt="Llama 2 model card"/></div>
+<div align="center"><img src="{{ site.baseurl }}/assets/images/llama2_model-card.png" alt="Llama 2 model card"/></div>
 
 The important take-away here is that training incurs a cost in time and in the amount of carbon emitted (read: _polution_), so the size of model you decide to train matters. While one instance of model inference, is much "cheaper" than training, you can imagine that inference actually ends up being where the most environmental impact occurs, with queries (input-output requests) from millions of users happen in a short amount of time. So, the smaller model you can use to accomplish a task, the less space, time, and environmental impact you will likely have.
 
@@ -77,7 +77,7 @@ The important take-away here is that training incurs a cost in time and in the a
 
 Well, yes and no. _You_ can not use the systems, but there's a good chance you will given the ubiquity of these systems and when you do we want you to be able to think critically about that use. So we'll try to give you some knowledge and experience here, but leave it to you to gain the expertise you need throughout your educational journey. If nothing else, we're here to make your life more difficult so that you can't just do things out of ignorance.
 
-<div align="center"><img src="imgs/sorry.webp" width="350" style="border: 2px solid white"/></div>
+<div align="center"><img src="{{ site.baseurl }}/assets/images/sorry.webp" width="350" style="border: 2px solid white"/></div>
 
 Now that we've given a high-level view of why we're doing this and a little background, let's move on to your MEPO, design challenge specifics.
 
@@ -87,8 +87,8 @@ What we are going to do here is use the chatbot (that uses a Llama 2 model for o
 
 Either way, you'll have this module to refer back to later if you want! In showing you "how the sausage is made", we'll also show you some methods folks use to augment their models with specific context and information so that they work better.
 
-<div align="center"><img src="imgs/science.gif" width="350" style="border: 2px solid white"/></div>
+<div align="center"><img src="{{ site.baseurl }}/assets/images/science.gif" width="350" style="border: 2px solid white"/></div>
 
 Ok, let's get to setting up our model and running things! Navigate to the `Chatbot_main.ipynb` file to begin!
 
-<div align="center"><img src="imgs/letsdothis.gif" width="350" style="border: 2px solid white"/></div>
+<div align="center"><img src="{{ site.baseurl }}/assets/images/letsdothis.gif" width="350" style="border: 2px solid white"/></div>

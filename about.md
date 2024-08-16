@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Part 1
+title: Guided LLM notebooks
 description: >-
     Course policies and information.
 ---
