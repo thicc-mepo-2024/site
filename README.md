@@ -2,7 +2,7 @@
 layout: home
 title: Critical AI @ MEPO 2024
 nav_exclude: true
-#permalink: 
+permalink: index.html
 seo:
   type: Course
   name: PSU MEPO 2024 Critical AI learning
