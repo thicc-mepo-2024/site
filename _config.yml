@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MEPO 2024 Critical AI learning module
+title: MEPO + Critical AI '24
 tagline: Let's get critical (about AI!)
 description: The website for MEPO 2024 Critical AI learning module
 author: THiCC Lab
