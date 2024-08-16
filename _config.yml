@@ -17,8 +17,8 @@ title: ThiCC lab
 tagline: The Human in Computing and Cognition (THiCC) directed by Dr. Chris Dancy @ Penn State
 description: The website for THiCC Lab
 author: THiCC Lab
-baseurl: '/' # the subpath of your site, e.g. /blog
-url: 'https://thicc-mepo-2024.github.io' # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: '' # the subpath of your site, e.g. /blog
+url: 'https://thicc-mepo-2024.github.io/' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
