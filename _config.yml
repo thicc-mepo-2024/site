@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: THiCC lab
-tagline: The Human in Computing and Cognition (THiCC) directed by Dr. Chris Dancy @ Penn State
-description: The website for THiCC Lab
+title: MEPO 2024 Critical AI learning module
+tagline: Let's get critical (about AI!)
+description: The website for MEPO 2024 Critical AI learning module
 author: THiCC Lab
-baseurl: '/thicc-mepo-2024.github.io' # the subpath of your site, e.g. /blog
+baseurl: 'thicc-mepo-2024.github.io' # the subpath of your site, e.g. /blog
 url: 'https://thicc-mepo-2024.github.io/' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
