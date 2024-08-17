@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Guided LLM notebooks
+title: LLM notebooks
 description: Find your guided AI (LLM) notebooks here
+nav_order: 2
 ---
 
 # Guided Notebooks
