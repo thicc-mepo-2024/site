@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Critical AI @ MEPO 2024
-nav_exclude: true
+#nav_exclude: true
 permalink: index.html
 seo:
   type: Course
@@ -12,7 +12,7 @@ seo:
 
 <div align="center" style="font-size: 11px;">
 
-Work done by Dixon Zor and Chris Dancy as a part of [THiCC Lab](https://sites.psu.edu/thicc)
+Work done by Dixon Zor, Deja Workman, Swapnika Dulam, Haya Alshayji, and Dr. Chris Dancy as a part of [THiCC Lab](https://sites.psu.edu/thicc)
 Funds towards this work were provided by [the National Science Foundation](https://www.nsf.gov/) through a [grant to Chris Dancy](https://news.engr.psu.edu/2023/dancy-christopher-nsf-career-award.aspx)
 
 </div>
@@ -89,6 +89,13 @@ Either way, you'll have this module to refer back to later if you want! In showi
 
 <div align="center"><img src="{{ site.baseurl }}/assets/images/science.gif" width="350" style="border: 2px solid white"/></div>
 
-Ok, let's get to setting up our model and running things! Navigate to the `Chatbot_main.ipynb` file to begin!
+Ok, let's get to setting up our model and running things! Navigate to the [**Guided Walkthrough**](Critical-AI/guided_walkthrough) to begin!
 
 <div align="center"><img src="{{ site.baseurl }}/assets/images/letsdothis.gif" width="350" style="border: 2px solid white"/></div>
+
+<div align="center">
+This work was supported by <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=2144887">NSF grant #2144887</a>, an <a href="https://news.engr.psu.edu/2023/dancy-christopher-nsf-career-award.aspx">NSF CAREER grant awarded to Chris Dancy</a>.
+<br />
+<img src="{{ site.baseurl }}/assets/images/NSF_Official_logo.png" width="350" style="border: 2px solid white" />
+
+</div>
