@@ -2,6 +2,7 @@
 layout: page
 title: LLM notebooks
 description: Find your guided AI (LLM) notebooks here
+parent: Critical-AI
 nav_order: 2
 ---
 

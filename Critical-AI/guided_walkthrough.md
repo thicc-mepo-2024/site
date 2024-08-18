@@ -2,6 +2,7 @@
 layout: page
 title: Guided Walkthrough
 description: Find a guided walkthrough of the AI (LLM) notebooks here
+parent: Critical-AI
 nav_order: 1
 ---
 
