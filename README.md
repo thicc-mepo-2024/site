@@ -1,6 +1,6 @@
 ---
 layout: home
-title: Critical AI @ MEPO 2024
+title: Introduction to Critical AI @ MEPO 2024
 #nav_exclude: true
 permalink: index.html
 seo:
