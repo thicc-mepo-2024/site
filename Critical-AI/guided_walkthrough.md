@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Guided Walkthrough
-description: Find a guided walkthrough of the AI (LLM) notebooks here
+description: Find a guided walkthrough of an AI (LLM)
 parent: Critical-AI
 nav_order: 1
 ---
@@ -50,6 +50,13 @@ The design challenge aims to provide hands-on experience using LLaMA2 on Hugging
 ### Prepping for the Design Challenge  
 
 Participants should familiarize themselves with LLaMA2 and Hugging Face Spaces. Review the documentation to understand how to deploy and interact with models in a cloud-based environment. Setting up a Hugging Face Space is crucial for running the LLaMA2 model. Understanding AI ethics and bias is essential. Participants should also become familiar with the prompt structure used in this exercise and keep a record of reflections and observations. Finally, be prepared to compare the model's outputs at different stages to assess how the inclusion of context and prompts affects the quality of the generated responses. 
+
+### A Hugging Face Space for your work
+
+To do complete this walk-through with the prompts in the next section, you'll need to access a LLM system (chatbot). We have one ready for you!
+
+Navigate to the Hugging Face Space linked below via your web browser of choice:<br />
+[MEPO 2024 LLM chatbot system](https://huggingface.co/spaces/cdancy/PSU-MEPO-24)
 
 ## Prompts 
 
